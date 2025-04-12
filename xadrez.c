@@ -22,6 +22,8 @@ int main() {
         printf("Movimento do Bispo: Esquerda Cima\n", rb); // 'Esquerda Cima' para representar movimento a diagonal superior esquerda
     }
 
+    printf("\n");
+
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
 
@@ -30,6 +32,8 @@ int main() {
         printf("Movimento da Torre: Direita\n"); // 'Direita' para representar o movimento horizontal
         LtowerMove--; // Decrementa o número de movimentos restantes
         }
+
+    printf("\n");
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
@@ -40,6 +44,8 @@ int main() {
         qmove++; // incremento para efeito de movimentação de casas
         printf("Movimento da Rainha: Esquerda\n"); // Terminal imprime a movimentação apos incremento, e apos avaliação e incremento novamente
     } while (qmove <= queenMove); // Condição que avalia a quantidade de casas restantes, com base na movimentação maxima possivel
+
+    printf("\n");
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
@@ -54,6 +60,8 @@ int main() {
         printf("Movimento do Cavalo: Esquerda\n"); // Após o movimento vertical, o cavalo se move para a esquerda, sem necessidade de incremento
     }
 
+    printf("\n");
+    
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
     // Exemplo: Crie uma função recursiva para o movimento do Bispo.
